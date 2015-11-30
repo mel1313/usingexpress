@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts":  {
+  "scripts": {
     "start": "node app.js",
     "test": "standard && mocha"
   },
@@ -15,7 +15,9 @@
   },
   "devDependencies": {
     "babel-cli": "^6.2.0",
+    "babelify": "^7.2.0",
     "bluebird": "^3.0.5",
+    "browserify": "^12.0.1",
     "chai": "^3.4.1",
     "lodash": "^3.10.1",
     "mocha": "^2.3.4",
