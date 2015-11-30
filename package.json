@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts":  {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +20,7 @@
     "lodash": "^3.10.1",
     "mocha": "^2.3.4",
     "nodemon": "^1.8.1",
+    "standard": "^5.4.1",
     "supertest": "^1.1.0"
   }
 }
